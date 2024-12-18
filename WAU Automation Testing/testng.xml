@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="AllureTest.java">
+        <classes>
+            <class name="Report.WAU_Testing">
+                <methods>
+                    <include name="TestCase01"/>
+                    <include name="TestCase02"/>
+                    <include name="TestCase03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
